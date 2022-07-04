@@ -174,12 +174,9 @@ const startCreating = async() => {
 
     console.log(ears_res);
 
-    let race = "GameOfDwarfs";
-    console.log("start all dna");
-
+    let race = "NovoStakingV2";
     let all_dna = createAllDna(races, race);
 
-    console.log("create all dna: " + all_dna.length);
     let newDna = [];
     var name = "";
     let results;
